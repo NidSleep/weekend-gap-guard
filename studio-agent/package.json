@@ -1,0 +1,17 @@
+{
+  "name": "gapguard-studio-agent",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "demo": "node run-demo.js",
+    "bag": "bag"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@bnbagent/studio-cli": "^0.0.15"
+  },
+  "private": true
+}
