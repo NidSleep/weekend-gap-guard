@@ -3,3 +3,5 @@ artifacts/
 cache/
 *.log
 .env
+
+web/node_modules/

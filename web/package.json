@@ -1,0 +1,14 @@
+{
+  "name": "weekend-gap-guard-web",
+  "private": true,
+  "description": "Static site: the real GapGuardVault bytecode on Ganache's EVM in the browser. Vendored files are checked in; npm install is only needed to rebuild/test.",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "npx --yes http-server . -p 5190 -c-1",
+    "test": "node test-browser.mjs"
+  },
+  "devDependencies": {
+    "ganache": "7.9.2",
+    "playwright-core": "^1.64.1"
+  }
+}
