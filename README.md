@@ -6,6 +6,8 @@
 
 **Solution:** `GapGuardVault.sol` checks every agent trade on-chain: stock allowlist, daily USDT budget, market-aware price-gap band (5% open / 3% closed vs reference), and an owner kill switch. Violations revert with custom errors (`PriceGapTooWide`, `NotWhitelisted`, `DailyLimitExceeded`, `VaultFrozen`).
 
+**Demo video (58s):** [`media/WeekendGapGuard-demo.mp4`](media/WeekendGapGuard-demo.mp4)
+
 **Run the live demo** (real contracts on a local EVM, every button sends real transactions):
 ```bash
 cd live
