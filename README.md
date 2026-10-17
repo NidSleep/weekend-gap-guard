@@ -8,7 +8,7 @@
 
 **Live demo (no wallet needed):** https://weekend-gap-guard.vercel.app — runs the real contract bytecode on an EVM inside your browser.
 
-**Demo video (58s):** [`media/WeekendGapGuard-demo.mp4`](media/WeekendGapGuard-demo.mp4)
+**Demo video (62s, narrated):** [`media/WeekendGapGuard-demo.mp4`](media/WeekendGapGuard-demo.mp4)
 
 **Run the live demo** (real contracts on a local EVM, every button sends real transactions):
 ```bash
